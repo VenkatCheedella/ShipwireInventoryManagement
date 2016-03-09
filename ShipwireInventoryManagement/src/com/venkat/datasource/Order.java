@@ -10,7 +10,7 @@ import java.util.List;
  *  Here Lines are stored in a List
  *
  */
-public class Order {
+public class Order implements IOrder{
 	
 	private int id;
 	private List<Line> listOfLines;	

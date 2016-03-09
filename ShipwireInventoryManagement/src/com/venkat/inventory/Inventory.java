@@ -27,7 +27,7 @@ import com.venkat.exceptions.InvalidProductInfoException;
 import com.venkat.response.InventoryServiceResponse;
 
 
-public class Inventory {
+public class Inventory implements IInventory{
 	
 	private Map<String, Integer> existingItems;				// holds the inventory information
 	private Set<Integer> serviceCompletedOrders;			// holds the orders Ids of the Orders where the service is provided successfully 

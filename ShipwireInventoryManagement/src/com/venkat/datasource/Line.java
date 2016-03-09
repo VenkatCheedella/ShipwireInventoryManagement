@@ -7,7 +7,7 @@ package com.venkat.datasource;
  * {"Product": "C", "Quantity": "4"} -> This information is stored as Line object
  */
 
-public class Line {
+public class Line implements ILine {
 	private ProductTypes productType;
 	private int Qunatity ;
 			
@@ -15,9 +15,11 @@ public class Line {
 		this.productType = productType;
 		Qunatity = qunatity;
 	}
+	
 	public ProductTypes getProductType() {
 		return productType;
 	}
+	
 	public int getQunatity() {
 		return Qunatity;
 	}	

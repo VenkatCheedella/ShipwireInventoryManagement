@@ -23,7 +23,8 @@ public class RandomProductTypes {
 		 * Hence below approach of creating a random number between 0 and the size of the product list
 		 */
 		while(quantity != 0){
-			int generatedRandNum = RandomNumberGeneration.getRandomNumberInRange(0, sizeOfTypesOfProductTypes()-1);
+			int generatedRandNum = RandomNumberGeneration.getRandomNumberInRange(0, 
+					sizeOfTypesOfProductTypes()-1);
 			if(!generatedIntegers.contains(generatedRandNum)){				
 				prodTypes.add(ProductTypes.values()[generatedRandNum]);
 				generatedIntegers.add(generatedRandNum);
