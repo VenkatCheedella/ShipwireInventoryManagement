@@ -1,4 +1,4 @@
-package com.venkat.test;
+package com.venkat.inventory;
 
 import java.io.IOException;
 import java.util.concurrent.BlockingQueue;
@@ -6,7 +6,6 @@ import java.util.concurrent.Callable;
 
 import com.venkat.datasource.Order;
 import com.venkat.exceptions.InvalidProductInfoException;
-import com.venkat.inventory.Inventory;
 
 public class InventoryAllocator implements Callable<Boolean>{
 

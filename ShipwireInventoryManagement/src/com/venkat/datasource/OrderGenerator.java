@@ -14,9 +14,7 @@ import com.venkat.utility.RandomProductTypes;
 
 public class OrderGenerator {
 	
-	public static Order getOrder(int numOfLines, int orderId){
-		if(numOfLines > 6)
-			numOfLines = 3;
+	public static Order getOrder(int numOfLines, int orderId){		
 		List<ProductTypes> productTypes = RandomProductTypes.generateRandomProductTypes(numOfLines);		// generates RandomProduct types.
 		List<Line> lines = new ArrayList<>();
 		for(int i=0; i< numOfLines; ++i){

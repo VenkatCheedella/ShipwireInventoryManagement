@@ -19,6 +19,7 @@ import java.util.concurrent.Future;
 import com.venkat.datasource.Order;
 import com.venkat.datasource.OrderStream;
 import com.venkat.exceptions.InvalidProductInfoException;
+import com.venkat.inventory.InventoryAllocator;
 import com.venkat.response.InventoryServiceResponse;
 
 
